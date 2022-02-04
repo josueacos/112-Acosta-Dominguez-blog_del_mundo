@@ -1,0 +1,11 @@
+*{box-sizing: border-box;}
+body{background-color: black;color:white}
+article{background-color: rgb(44,43,43);padding: 1.5rem;border-bottom: 1px solid white;}
+#deportes{text-align: center; font-size: 3rem;}
+#cine{text-align: center; font-size: 3rem;}
+.resaltado{color: yellow;}
+nav>ul>li{list-style: none;}
+nav>ul>li>a{text-decoration: none;}
+#footer_blog{margin: 2rem;}
+.ilustracion{display: inline-block; border: 4px solid white;}
+.ilustracion figcaption{margin-top: 1rem; margin-left: 1rem; font-style: italic;}
