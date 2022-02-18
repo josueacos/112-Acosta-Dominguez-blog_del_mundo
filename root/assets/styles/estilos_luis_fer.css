@@ -1,4 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: auto;
+    gap: 3rem;
+}
+section>header{
+    grid-column: span 12;
+}
+section>main{
+    grid-column: span 8;
+}
+section>aside{
+    grid-column: span 4;
+}
+section>footer{
+    grid-column: span 12;
+}
 body{background-color: black ;color: white;}
-article{background-color: rgb(44,43,43);}
-.resaltado{color: yellow;}
+article{background-color: rgb(44,43,43); padding: 1.5rem; border-bottom: 1px solid white;}
 #ciclismo{text-align: center;font-size: 3rem;}
+#futbol{text-align: center; font-size: 3rem;}
+.resaltado{color: yellow;}
+nav>ul>li{list-style: none;}
+nav>ul>li>a{text-decoration: none;}
+#footer_blog{margin: 2rem;}
+.ilustracion{display: inline-block; border: 4px solid white;}
+.ilustracion figcaption{margin-top: 1rem; margin-left: 1rem; font-size: italic;}
